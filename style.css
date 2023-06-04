@@ -1,0 +1,110 @@
+
+body {
+    background: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    margin: 0px;
+}
+.logo-principal{
+    padding: 30px;
+
+}
+
+.flex {
+    display: grid;
+    justify-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.menu a {
+    padding: 10px;
+    background: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+}
+
+.detalhe {
+    width: 80px;
+    height: 5px;
+    background-color: #ee2211;
+    position: absolute;
+    right: -40px;
+    top: 40px;
+}
+.informacao-principal {
+    display: grid;
+    position: relative;
+    grid-column: 1;
+    justify-items: end;
+    place-content: center;
+    background: white;
+    padding: 40px;
+}
+
+.informacao-principal p {
+    text-align: right;
+}
+
+.botao{
+    background-color: #ee2211;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.foto {
+    max-width: 100%;
+    grid-column: 2;
+}
+
+.vantagens {
+    font-size: 5vw;
+    text-align: end;
+    padding: 40px;
+    font-weight: 700;
+    color: #c6c6c6;
+}
+
+.colunas {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.colunas p {
+    grid-column: 2;
+    margin: 0px;
+}
+
+.colunas h2 {
+    margin: 0px;
+}
+
+.rodape {
+    background: #f7f7f7;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
