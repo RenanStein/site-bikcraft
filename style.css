@@ -16,8 +16,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor02);
-    display: grid;
-    justify-content: center;
 }
 
 header {
@@ -185,7 +183,7 @@ footer {
    }
 
    .box-1 a {
-    place-self: start;
+    justify-self: start;
    }
 
    .box-3 p{
