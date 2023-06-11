@@ -191,3 +191,35 @@ footer {
    }
 
 }
+
+@media (max-width: 400px) {
+
+    p, a {
+        font-size: 1rem;
+    }
+    header {
+        padding: 1rem;
+    }
+
+    .menu {
+        gap: 1rem;
+    }
+
+    .box-1 {
+        padding: 0.6rem;
+    }
+    .box-3 p {
+        font-size: 2rem;
+        padding: 0.6rem;
+    }
+
+    .box-4 {
+        padding: 0.6rem;
+    }
+
+    footer {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        margin-top: 3rem;
+    }
+}
