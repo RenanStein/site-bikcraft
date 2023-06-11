@@ -2,55 +2,64 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bikcraft</title>
+
     <link rel="stylesheet" href="style.css">
-    <title>Bikcraft</title>
 </head>
 <body>
-    <div class="flex">
-        <img src="img/bikcraft.svg" alt="logo da bikcraft" class="logo-principal">
-    </div>
+    <header>
+        <img src="img/bikcraft.svg" alt="bikcraft" class="logo-principal">
 
-    <div class="menu">
-        <a href="#">SOBRE</a>
-        <a href="#">PRODUTOS</a>
-        <a href="#">LOJAS</a>
-        <a href="#">CONTATO</a>
-    </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Lojas</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="flex">
-        <div class="container">
-            <div class="informacao-principal">
-                <span class="detalhe"></span>
-                <h2>Biciletas Feitas a Mão</h2>
+    <main>
+        <section class="container">
+            <article class="box-1">
+                <h1>Bicicletas feitas a mão</h1>
                 <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
-                <a href="#" class="botao">VER MAIS</a>
-            </div>
-            <img src="img/bicicleta.jpg" alt="bicicleta preta" class="foto">
-            <p class="vantagens">VANTAGENS BIKCRAFT</p>
-            <div class="informacao-secundaria">
-                <div class="colunas">
-                    <img src="img/eletrica.svg" alt="imagem de bicicleta elétrica" class="icones">
-                    <h2>Motor Elétrico</h2>
-                    <p>Permite você viajar distâncias inimaginaveis com a sua bike.</p>
-                </div>
-                <div  class="colunas"> 
-                    <img src="img/velocidade.svg" alt="imagem de velocímetro" class="icones">
-                    <h2>40 km/h</h2>
-                    <p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
-                </div>
-                <div  class="colunas">
-                    <img src="img/rastreador.svg" alt="imagem de rastreador" class="icones">
-                    <h2>Rastreador</h2>
-                    <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+                <a href="#">Ver mais</a>
+            </article>
+            <article class="box-2">
+                <img src="img/bicicleta.jpg" alt="bicicleta preta">
+            </article>
+            <article class="box-3">
+                <p>Vantagens bikcraft</p>
+            </article>
+            <article class="box-4">
+                <ul>
+                    <li class="item">
+                        <img src="img/eletrica.svg" alt="">
+                        <h2>Motor Elétrico</h2>
+                        <p>Permite você viajar distâncias inimaginaveis com a sua bike.</p>
+                    </li>
+                    <li class="item">
+                        <img src="img/velocidade.svg" alt="">
+                        <h2>40 km/h</h2>
+                        <p>A mais rápida bicileta elétrica disponível hoje no mercado.</p>
+                    </li>
+                    <li class="item">
+                        <img src="img/rastreador.svg" alt="">
+                        <h2>Rastreador</h2>
+                        <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
 
-    <div class="rodape flex">
-        <p>Bikcraft. Alguns Direitos Reservados.</p>
-    </div>
+    <footer>
+        <p>
+            Bikcraft. Alguns Direitos Reservados
+        </p>
+    </footer>
 </body>
 </html>
